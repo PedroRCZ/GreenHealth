@@ -51,6 +51,17 @@ p{margin: 10px 0;color: #777;}
 input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], input[type="search"], textarea, select {height: 45px;padding-left: 20px;border: 1px solid #ddd;border-radius: 0;box-shadow: none;line-height: 22px;letter-spacing: .5px;-webkit-transition: border-color 0.5s;transition: border-color 0.5s;width: 100%;margin: 7px 0;}
 input:focus, input:hover, textarea:hover, select:hover, textarea:focus, select:focus {outline: none;box-shadow: none;border-color: #777;}
 
+#inferior{
+	color: #FFF;
+	background: #000;
+	position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	bottom:0px; /*Abajo deje un espacio de 0px*/
+	height:50px; /*alto del div*/
+	z-index:0;
+}
+
 .t-center{text-align: center;}
 .t-left{text-align: left;}
 .t-right{text-align: right;}
